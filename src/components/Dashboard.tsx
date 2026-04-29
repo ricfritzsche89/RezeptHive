@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Clock, Trash2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useTimers } from '../hooks/useTimers';
 import { mockRecipes } from '../data/mockRecipes';
-import type { ActiveTimer } from '../types';
 
 export const Dashboard: React.FC = () => {
   const { timers, removeTimer, getRemainingTime } = useTimers();
-  const [refresh, setRefresh] = useState(0);
+  const [, setRefresh] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => setRefresh(r => r + 1), 1000);

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Utensils, Moon, Sun, Plus, Activity, LayoutGrid, Clock } from 'lucide-react'
+import { Utensils, Moon, Sun, Plus, LayoutGrid, Clock } from 'lucide-react'
 import { RecipeCard } from './components/RecipeCard'
 import { RecipeDetail } from './components/RecipeDetail'
 import { Dashboard } from './components/Dashboard'
