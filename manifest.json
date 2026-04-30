@@ -1,0 +1,23 @@
+{
+  "name": "RezeptHive - Pökel & BBQ Manager",
+  "short_name": "RezeptHive",
+  "description": "Verwalte deine Rezepte und überwache Pökel- und BBQ-Prozesse.",
+  "start_url": "/RezeptHive/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
